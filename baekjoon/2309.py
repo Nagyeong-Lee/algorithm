@@ -1,8 +1,7 @@
 arr = [int(input()) for _ in range(9)]
 targetSum = sum(arr) - 100
 arrSize = len(arr)
-num1, num2 = 0, 0
-findYN = 0
+num1, num2, findYN = 0, 0, 0
 
 for i in range(arrSize):
     for j in range(i+1, arrSize):
